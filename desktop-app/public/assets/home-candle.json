@@ -1,0 +1,25 @@
+{
+  "source": "design/homepage/scene-v1/observatory-clean.png",
+  "size": {
+    "width": 1178,
+    "height": 584
+  },
+  "anchor": {
+    "x": 1025,
+    "y": 274
+  },
+  "flame": {
+    "x": 1009,
+    "y": 198,
+    "width": 32,
+    "height": 77
+  },
+  "repair": {
+    "x": 955,
+    "y": 150,
+    "width": 160,
+    "height": 155
+  },
+  "plateAsset": "home-candle-plate.png",
+  "flameAsset": "home-candle-flame.png"
+}

@@ -1,0 +1,78 @@
+name: Build desktop packages
+
+# Manual runs let the owner control consumption of hosted runner minutes.
+on:
+  workflow_dispatch:
+    inputs:
+      platform:
+        description: Package platform
+        type: choice
+        required: true
+        default: mac
+        options:
+          - mac
+          - windows
+          - both
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    name: Package ${{ matrix.platform }}
+    if: github.event_name == 'workflow_dispatch'
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - platform: mac
+            runner: macos-15
+          - platform: windows
+            runner: windows-2022
+    runs-on: ${{ matrix.runner }}
+    timeout-minutes: 45
+    defaults:
+      run:
+        working-directory: desktop-app
+        shell: bash
+    steps:
+      - name: Check out source
+        if: inputs.platform == matrix.platform || inputs.platform == 'both'
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Set up Node.js
+        if: inputs.platform == matrix.platform || inputs.platform == 'both'
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22.12.0'
+          cache: npm
+          cache-dependency-path: desktop-app/package-lock.json
+      - name: Install locked dependencies
+        if: inputs.platform == matrix.platform || inputs.platform == 'both'
+        run: npm ci --no-audit --no-fund
+      - name: Build independent package
+        if: inputs.platform == matrix.platform || inputs.platform == 'both'
+        run: npm run package:${{ matrix.platform }}
+      - name: Upload Mac archive and companion files
+        if: matrix.platform == 'mac' && (inputs.platform == 'mac' || inputs.platform == 'both')
+        uses: actions/upload-artifact@v4
+        with:
+          name: Scientific-Revolution-mac-universal-${{ github.run_number }}
+          path: |
+            desktop-app/release/mac/*.zip
+            desktop-app/release/mac/build-info.json
+            desktop-app/release/mac/SHA256SUMS.txt
+            desktop-app/release/publication/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Upload Windows directory and companion files
+        if: matrix.platform == 'windows' && (inputs.platform == 'windows' || inputs.platform == 'both')
+        uses: actions/upload-artifact@v4
+        with:
+          name: Scientific-Revolution-windows-x64-${{ github.run_number }}
+          path: |
+            desktop-app/release/windows/
+            desktop-app/release/publication/
+          if-no-files-found: error
+          retention-days: 14

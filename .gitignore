@@ -1,0 +1,27 @@
+# Original publication media and source material stay local.
+/视频/
+/design/
+*.mp4
+*.docx
+
+# Local build output, dependencies and inspection evidence.
+**/node_modules/
+**/dist/
+**/release/
+/desktop-app/qa/
+/.playwright-mcp/
+**/__pycache__/
+*.pyc
+*.log
+
+# Credentials and machine settings.
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+.DS_Store
+Thumbs.db

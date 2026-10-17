@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "publication": {
+    "id": "scientific-revolution",
+    "title": "科学革命",
+    "subtitle": "科学思想的变革和科学精神的塑造",
+    "producer": "国家开放大学",
+    "publisher": "国家开放大学音像出版社"
+  },
+  "modules": [
+    {
+      "id": "foundations",
+      "title": "科学革命的基本问题",
+      "shortTitle": "科学革命的基本问题",
+      "order": 1,
+      "videoFolder": "视频/科学革命的基本问题",
+      "image": "/assets/module-1.png",
+      "lessonCount": 4
+    },
+    {
+      "id": "exchange",
+      "title": "科学之光——前科学革命时代的科技文化交流",
+      "shortTitle": "科学之光",
+      "order": 2,
+      "videoFolder": "视频/前科学革命时代的科技文化交流",
+      "image": "/assets/module-2.png",
+      "lessonCount": 10
+    },
+    {
+      "id": "astronomy",
+      "title": "天文学革命",
+      "shortTitle": "天文学革命",
+      "order": 3,
+      "videoFolder": "视频/天文学革命",
+      "image": "/assets/module-3.png",
+      "lessonCount": 13
+    },
+    {
+      "id": "physics",
+      "title": "新物理学的诞生",
+      "shortTitle": "新物理学的诞生",
+      "order": 4,
+      "videoFolder": "视频/新物理学的诞生",
+      "image": "/assets/module-4.png",
+      "lessonCount": 4
+    },
+    {
+      "id": "medicine",
+      "title": "医学革命——现当代医学的诞生",
+      "shortTitle": "医学革命",
+      "order": 5,
+      "videoFolder": "视频/医学革命",
+      "image": "/assets/module-5.png",
+      "lessonCount": 9
+    },
+    {
+      "id": "china",
+      "title": "从“格致”到“科学”——科学革命在中国",
+      "shortTitle": "从“格致”到“科学”",
+      "order": 6,
+      "videoFolder": "视频/从“格致”到“科学”——科学革命在中国",
+      "image": "/assets/module-6.png",
+      "lessonCount": 4
+    }
+  ],
+  "lessons": [
+    {
+      "id": "foundations-01",
+      "moduleId": "foundations",
+      "number": 1,
+      "title": "科学革命的概念以及发生背景",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/科学革命的基本问题/科学革命的基本问题 01 科学革命的概念以及发生背景.mp4",
+      "durationSeconds": 1475.72
+    },
+    {
+      "id": "foundations-02",
+      "moduleId": "foundations",
+      "number": 2,
+      "title": "科学的由来和发展",
+      "speaker": "王渝生",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/科学革命的基本问题/科学革命的基本问题 02 科学的由来和发展.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "foundations-03",
+      "moduleId": "foundations",
+      "number": 3,
+      "title": "科技革命改变世界发展格局（16世纪-19世纪）",
+      "speaker": "王渝生",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/科学革命的基本问题/科学革命的基本问题 03 科技革命改变世界发展格局（16世纪-19世纪）.mp4",
+      "durationSeconds": 1475.72
+    },
+    {
+      "id": "foundations-04",
+      "moduleId": "foundations",
+      "number": 4,
+      "title": "科技革命改变世界格局（20世纪）",
+      "speaker": "王渝生",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/科学革命的基本问题/科学革命的基本问题 04 科技革命改变世界格局（20世纪）.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "exchange-01",
+      "moduleId": "exchange",
+      "number": 1,
+      "title": "史前科技知识的起源及其跨地域连接",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 01 史前科技知识的起源及其跨地域连接.mp4",
+      "durationSeconds": 1475.52
+    },
+    {
+      "id": "exchange-02",
+      "moduleId": "exchange",
+      "number": 2,
+      "title": "青铜时代的科技发展",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 02 青铜时代的科技发展.mp4",
+      "durationSeconds": 1475.64
+    },
+    {
+      "id": "exchange-03",
+      "moduleId": "exchange",
+      "number": 3,
+      "title": "古典时代早期的辉煌科技成就",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 03 古典时代早期的辉煌科技成就.mp4",
+      "durationSeconds": 1475.52
+    },
+    {
+      "id": "exchange-04",
+      "moduleId": "exchange",
+      "number": 4,
+      "title": "古典时代晚期的辉煌科技成就",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 04 古典时代晚期的辉煌科技成就.mp4",
+      "durationSeconds": 1475.48
+    },
+    {
+      "id": "exchange-05",
+      "moduleId": "exchange",
+      "number": 5,
+      "title": "中世纪伊斯兰黄金时代的铸就",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 05 中世纪伊斯兰黄金时代的铸就.mp4",
+      "durationSeconds": 1475.64
+    },
+    {
+      "id": "exchange-06",
+      "moduleId": "exchange",
+      "number": 6,
+      "title": "中世纪伊斯兰黄金时代科学成就",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 06 中世纪伊斯兰黄金时代科学成就.mp4",
+      "durationSeconds": 1475.48
+    },
+    {
+      "id": "exchange-07",
+      "moduleId": "exchange",
+      "number": 7,
+      "title": "古代印度与中国科技交流",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 07 古代印度与中国科技交流.mp4",
+      "durationSeconds": 1475.44
+    },
+    {
+      "id": "exchange-08",
+      "moduleId": "exchange",
+      "number": 8,
+      "title": "蒙古时代欧亚科技知识交流",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 08 蒙古时代欧亚科技知识交流.mp4",
+      "durationSeconds": 1476.28
+    },
+    {
+      "id": "exchange-09",
+      "moduleId": "exchange",
+      "number": 9,
+      "title": "古代科技史中的过渡与边缘区域",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 09 古代科技史中的过渡与边缘区域.mp4",
+      "durationSeconds": 1475.52
+    },
+    {
+      "id": "exchange-10",
+      "moduleId": "exchange",
+      "number": 10,
+      "title": "欧洲复兴与科技知识的回流",
+      "speaker": "陈巍",
+      "speakerRole": "中国科学院自然科学史研究所副研究员",
+      "relativeVideoPath": "视频/前科学革命时代的科技文化交流/前科学革命时代的科技文化交流 10 欧洲复兴与科技知识的回流.mp4",
+      "durationSeconds": 1475.52
+    },
+    {
+      "id": "astronomy-01",
+      "moduleId": "astronomy",
+      "number": 1,
+      "title": "从亚里士多德到哥白尼时代",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 01 从亚里士多德到哥白尼时代.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "astronomy-02",
+      "moduleId": "astronomy",
+      "number": 2,
+      "title": "“骗子”托勒密",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 02 “骗子”托勒密.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-03",
+      "moduleId": "astronomy",
+      "number": 3,
+      "title": "哥白尼的地动日心说",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 03 哥白尼的地动日心说.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-04",
+      "moduleId": "astronomy",
+      "number": 4,
+      "title": "自然科学的独立宣言《天体运行论》",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 04 自然科学的独立宣言《天体运行论》.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-05",
+      "moduleId": "astronomy",
+      "number": 5,
+      "title": "《天体运行论》的科学影响",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 05 《天体运行论》的科学影响.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-06",
+      "moduleId": "astronomy",
+      "number": 6,
+      "title": "第谷的观测与第谷体系",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 06 第谷的观测与第谷体系 .mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "astronomy-07",
+      "moduleId": "astronomy",
+      "number": 7,
+      "title": "开普勒的“新天文学”",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 07 开普勒的“新天文学” .mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "astronomy-08",
+      "moduleId": "astronomy",
+      "number": 8,
+      "title": "伽利略的日心说证据",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 08 伽利略的日心说证据.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-09",
+      "moduleId": "astronomy",
+      "number": 9,
+      "title": "日心说的新证据与宗教审判",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 09 日心说的新证据与宗教审判.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-10",
+      "moduleId": "astronomy",
+      "number": 10,
+      "title": "从古星图看科技传播与科学革命",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 10 从古星图看科技传播与科学革命.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "astronomy-11",
+      "moduleId": "astronomy",
+      "number": 11,
+      "title": "赫维留：最后的传统天文学家",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 11 赫维留：最后的传统天文学家.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-12",
+      "moduleId": "astronomy",
+      "number": 12,
+      "title": "英国皇家学会和格林威治天文台",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 12 英国皇家学会和格林威治天文台.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "astronomy-13",
+      "moduleId": "astronomy",
+      "number": 13,
+      "title": "巴黎皇家科学院和巴黎天文台",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/天文学革命/天文学革命 13 巴黎皇家科学院和巴黎天文台.mp4",
+      "durationSeconds": 1475.88
+    },
+    {
+      "id": "physics-01",
+      "moduleId": "physics",
+      "number": 1,
+      "title": "科学革命与新物理学",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/新物理学的诞生/新物理学的诞生 01 科学革命与新物理学.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "physics-02",
+      "moduleId": "physics",
+      "number": 2,
+      "title": "牛顿：苹果与月亮",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/新物理学的诞生/新物理学的诞生 02 牛顿：苹果与月亮.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "physics-03",
+      "moduleId": "physics",
+      "number": 3,
+      "title": "哈雷彗星：牛顿力学的胜利",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/新物理学的诞生/新物理学的诞生 03 哈雷彗星：牛顿力学的胜利.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "physics-04",
+      "moduleId": "physics",
+      "number": 4,
+      "title": "天才为何成群地来？",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/新物理学的诞生/新物理学的诞生 04 天才为何成群地来？.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-01",
+      "moduleId": "medicine",
+      "number": 1,
+      "title": "前医学时代人类与疾病的斗争史",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 01 前医学时代人类与疾病的斗争史.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-02",
+      "moduleId": "medicine",
+      "number": 2,
+      "title": "西方医学奠基人：希波克拉底",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 02 西方医学奠基人：希波克拉底.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-03",
+      "moduleId": "medicine",
+      "number": 3,
+      "title": "医学范式制造者：盖伦",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 03 医学范式制造者：盖伦.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-04",
+      "moduleId": "medicine",
+      "number": 4,
+      "title": "影响西方文明的三大瘟疫",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 04 影响西方文明的三大瘟疫.mp4",
+      "durationSeconds": 1475.72
+    },
+    {
+      "id": "medicine-05",
+      "moduleId": "medicine",
+      "number": 5,
+      "title": "人类免疫与疫苗接种的发展之路",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 05 人类免疫与疫苗接种的发展之路.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-06",
+      "moduleId": "medicine",
+      "number": 6,
+      "title": "医疗化学奠基人：帕拉塞尔苏斯",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 06 医疗化学奠基人：帕拉塞尔苏斯.mp4",
+      "durationSeconds": 1475.64
+    },
+    {
+      "id": "medicine-07",
+      "moduleId": "medicine",
+      "number": 7,
+      "title": "近代解剖学创始人：维萨里",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 07 近代解剖学创始人：维萨里.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "medicine-08",
+      "moduleId": "medicine",
+      "number": 8,
+      "title": "实验生理学创始人：威廉•哈维",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 08 实验生理学创始人：威廉•哈维.mp4",
+      "durationSeconds": 1475.64
+    },
+    {
+      "id": "medicine-09",
+      "moduleId": "medicine",
+      "number": 9,
+      "title": "近代医学革命的盛况",
+      "speaker": "李润虎",
+      "speakerRole": "中国科学院自然科学史研究员",
+      "relativeVideoPath": "视频/医学革命/医学革命 09 近代医学革命的盛况.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "china-01",
+      "moduleId": "china",
+      "number": 1,
+      "title": "西学东渐与近代科学在中国",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/从“格致”到“科学”——科学革命在中国/从“格致”到“科学”——科学革命在中国 01 西学东渐与近代科学在中国.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "china-02",
+      "moduleId": "china",
+      "number": 2,
+      "title": "李约瑟难题的反思",
+      "speaker": "李亮",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/从“格致”到“科学”——科学革命在中国/从“格致”到“科学”——科学革命在中国 02 李约瑟难题的反思.mp4",
+      "durationSeconds": 1475.6
+    },
+    {
+      "id": "china-03",
+      "moduleId": "china",
+      "number": 3,
+      "title": "中国近代科技发展的艰难历程",
+      "speaker": "王渝生",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/从“格致”到“科学”——科学革命在中国/从“格致”到“科学”——科学革命在中国 03 中国近代科技发展的艰难历程.mp4",
+      "durationSeconds": 1475.56
+    },
+    {
+      "id": "china-04",
+      "moduleId": "china",
+      "number": 4,
+      "title": "新中国科技发展的五个里程碑",
+      "speaker": "王渝生",
+      "speakerRole": "中国科学院自然科学史研究所研究员",
+      "relativeVideoPath": "视频/从“格致”到“科学”——科学革命在中国/从“格致”到“科学”——科学革命在中国 04 新中国科技发展的五个里程碑.mp4",
+      "durationSeconds": 1475.6
+    }
+  ]
+}
