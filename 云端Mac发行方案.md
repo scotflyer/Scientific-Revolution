@@ -65,3 +65,15 @@ U 盘建议至少 64 GB；exFAT 仍为候选，待最终 ad hoc 签名通用包�
 双平台无发布者证书打包配置与 Windows 独立目录包已完成；下一步选定并开通云端 Mac，执行通用包构建，另行安排目标机与实体 U 盘验收。无需继续核实或购买 Apple 开发者账号、Developer ID、Windows 发布者证书及公证凭据。Windows 独立目录包已构建；Mac 云端构建与正式目标机/介质验收尚未执行。
 
 **GitHub 构建路线（2026-10-18）：** 已准备 `.github/workflows/package-desktop.yml`，手动触发，默认仅构建 Mac。runner 为 macos-15，使用 Node.js 22.12.0 与锁文件；输出通用 ZIP、构建信息、校验值及配套文件，artifact 保留 14 天，不自动发布 Release。该托管 runner 用于构建，不替代远程桌面及实体 U 盘验收。上传状态以 Git 推送结果为准。
+
+
+## 双平台构建与发行组装最新状态（2026-10-18）
+
+GitHub 仓库 scotflyer/Scientific-Revolution 的手动工作流第1次运行成功，源码提交为 `74c91f3`，Windows x64 与 Mac Intel/Apple Silicon 通用包均已下载到本机。该状态取代前文“Mac尚待构建/需开通独立云端实例”的待办。
+
+组装输出为 `desktop-app/release/Scientific-Revolution-0.1.0-USB/`：Windows 完整目录、Mac 原始内层 ZIP、Mac 本地解包脚本、六主题44讲原视频、与应用相同的内容清单、启动说明、版本信息及校验记录。Mac ZIP 保留符号链接与执行权限；在 Mac 本地文件系统解包并启动，视频仍从 U 盘读取。当前未生成可从 exFAT 直接启动的 `.app` 目录；不得用 Windows 解包结果代替它。Mac 脚本会检查 ZIP 与 codesign，不关闭系统保护，不改写签名。
+
+构建文件SHA-256、Mac主程序两架构、应用版本与内容清单、44个视频复制前后SHA-256由组装脚本核对。此为静态完整性核对，不是运行验收。版本保持0.1.0准备版；Windows正式包启动、Mac签名实机验证/两架构运行、目标系统、离线播放、字体与实体U盘验收仍待完成。下一步按随包 `发行核对/实机验收清单.md` 记录实机结果，再定稿发行说明及介质方案。原视频与发行产物保持仅本地，不上传GitHub。
+
+运行链接：https://github.com/scotflyer/Scientific-Revolution/actions/runs/39076469886
+组装入口：`python desktop-app/scripts/assemble-publication.py`（需Python3.11以上；固定本次0.1.0/run1输入；已有输出时拒绝覆盖）。
